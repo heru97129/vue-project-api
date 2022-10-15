@@ -118,11 +118,16 @@ toggleAddTask(){
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+
 }
 
 .container{
-  border: 2px solid rgba(0, 0, 0, 0.316);
+  border: 1px solid rgba(0, 0, 0, 0.316);
   background-color: rgba(26, 165, 196, 0.069);
+  min-height:100vh;
+  max-height: auto;
+  display:flex;
+  flex-direction:column;
 }
 
 .btn{
@@ -138,12 +143,34 @@ text-decoration: none;font-size: 15px;
 font-family: inherit ;
 }
 
+@media screen and (min-width: 600px){
+  .container {
+    width:70%;
+   margin: 5em auto;
+   padding:2em 3em;
+   height:auto;
+    
+  }
+}
+
+
+@media screen and (min-width: 800px){
+  .container {
+    width:50%;
+   margin: 5em auto;
+   padding:2em 3em;
+   height:auto;
+    
+  }
+}
+
 
 @media screen and (min-width: 1200px){
   .container {
     width:30%;
    margin: 5em auto;
-   padding:2em 3em
+   padding:2em 3em;
+   height:auto;
     
   }
 }

@@ -4,13 +4,13 @@
       "id": 1,
       "text": "Doctor appointment",
       "day": "March 1st at 2am",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 3,
       "text": "chef curry appointment",
       "day": "March 1st at 2am",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 15263,

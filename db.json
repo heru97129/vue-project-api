@@ -4,18 +4,18 @@
       "id": 1,
       "text": "Doctor appointment",
       "day": "March 1st at 2am",
-      "reminder": true
-    },
-    {
-      "id": 2,
-      "text": "chef cook appointment",
-      "day": "March 1st at 2am",
       "reminder": false
     },
     {
       "id": 3,
       "text": "chef curry appointment",
       "day": "March 1st at 2am",
+      "reminder": false
+    },
+    {
+      "id": 15263,
+      "text": "course",
+      "day": "15 sept 2023",
       "reminder": true
     }
   ]

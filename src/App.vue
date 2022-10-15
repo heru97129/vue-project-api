@@ -65,7 +65,7 @@ export default {
    async toggleReminder(id){
     const taskToggle = await this.fetchTask(id)
     const upTask = {...taskToggle, reminder: !taskToggle.reminder}
-console.log(upTask)
+console.log(upTask,'yo')
      const res = await fetch(`api/tasks/${id}`,{
       method:'PUT',
       headers:{
@@ -84,7 +84,6 @@ console.log(upTask)
 
   },
 toggleAddTask(){
- 
 
     this.showAddTask = !this.showAddTask
   },
@@ -122,7 +121,8 @@ toggleAddTask(){
 }
 
 .container{
-  border: 1px solid black;
+  border: 2px solid rgba(0, 0, 0, 0.316);
+  background-color: rgba(26, 165, 196, 0.069);
 }
 
 .btn{
@@ -139,5 +139,13 @@ font-family: inherit ;
 }
 
 
+@media screen and (min-width: 1200px){
+  .container {
+    width:30%;
+   margin: 5em auto;
+   padding:2em 3em
+    
+  }
+}
 
 </style>
